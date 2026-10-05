@@ -99,10 +99,3 @@ Both scripts print the final test accuracy and confusion matrix. The DistilBERT 
 - **Accuracy only**, with no precision/recall breakdown or calibration analysis beyond the confusion matrices
 - The LSTM is a deliberately small, simple architecture; a stronger recurrent baseline (bidirectional layers, pretrained word embeddings) was not tried
 
-## Next steps
-
-- Add a TF-IDF + logistic regression baseline on the same data and splits
-- Run several seeds per model and report mean and spread
-- Try longer inputs (up to 512 tokens) for DistilBERT and measure what truncation costs
-- Read through the reviews both models get wrong, and the ones only the LSTM gets wrong
-- Match hardware for the timing comparison
