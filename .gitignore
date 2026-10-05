@@ -1,0 +1,4 @@
+results/
+distilbert-imdb/
+data/
+__pycache__/
